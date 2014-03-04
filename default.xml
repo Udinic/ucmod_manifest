@@ -2,8 +2,12 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com/" 
            review="https://android-review.googlesource.com/" />
+
+  <remote  name="udinic"
+           fetch="https://github.com/udinic/" />
+
   <default revision="master"
            remote="aosp"
            sync-j="4" />
